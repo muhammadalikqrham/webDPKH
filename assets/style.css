@@ -1,0 +1,162 @@
+/* bagian atas banget */
+.navbar-back{
+  background-color: #FFF !important;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+  z-index: 1;
+}
+/* end of bagian atas banget */
+
+/* navbar bagian bawah */
+.navbar2-back{
+  z-index: 0;
+  margin-top: -20px;
+  width: 100%;
+  padding-top: 20px;
+  background-color: #FD9950 !important;
+position: relative;
+}
+/* end of navbar bagian bawah */
+
+/* navbar kadis sekaran */
+.navbar3{
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #FD9950 !important;
+}
+.card-kadis{
+  background-color: #FFF;
+  padding: 0.8rem;
+  border-radius: 20px;
+  max-height: 90px;
+}
+.header-kadis{
+  font-size: 0.7rem;
+  margin: 0;
+}
+.name{
+  font-size: 0.9rem;
+  color: #db7600;
+margin: 0;
+}
+.masa{
+  font-size: 0.7rem;
+color: #696969;
+font-weight: bold;
+/* line-height: 2px; */
+}
+.img-kadis{
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+/* end of navbar kadis sekarang */
+
+/* attr nav */
+nav{
+  font-weight: bold;
+}
+.div img{
+  max-height: 200px;
+}
+/* attr nav */
+/* carousel things */
+#slider .owl-nav{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+#slider .owl-prev{
+  position: absolute;
+  left: 5%;
+  color: rgb(255, 255, 255);
+  opacity: 0.4;
+  /* background-color: red; */
+  font-size: 72px;
+  line-height: 0%;
+  outline: none;
+  transition: 0.5s;
+}
+#slider .owl-next{
+  position: absolute;
+  right: 5%;
+  color: rgb(255, 255, 255);
+  opacity: 0.4;
+  /* background-color: red; */
+  font-size: 72px;
+  line-height: 0%;
+  outline: none;
+  transition: 0.5s;
+}
+
+#slider .owl-prev:hover{
+  opacity: 1;
+}
+#slider .owl-next:hover{
+  opacity: 1;
+}
+
+.owl-dots{
+  position: absolute;
+    z-index: 1;
+    top: 90%;
+    width: 100%;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.owl-dots:hover{
+  opacity: 1;
+}
+.owl-dot:focus{
+  outline: none;
+}
+/* end of carousel things */
+
+/* container and his homies */
+
+/* header kadis 1980 - sekarang */
+
+.header-hist-kadis
+{
+  font-size: 3rem;
+  font-weight: bold;
+}
+/* carousel kadis */
+
+.name-kadis-carousel{
+  font-weight: bold;
+  font-size: 1rem;
+  color: #db7600;
+  opacity: 0;
+  padding-top: 10px;
+  transition: 0.4s;
+}
+.masa-kadis-carousel{
+  font-weight: bold;
+  font-size: 0.7rem;
+  color: #696969;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.center>div>.name-kadis-carousel{
+  opacity: 1;
+}
+
+.center>div>.masa-kadis-carousel{
+  opacity: 1;
+}
+.img-kadis-carousel{
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: 0.4s;
+}
+.center>div>.img-kadis-carousel{
+  opacity: 1 !important; 
+}
+
+/* end of carousel kadis */
+/* end of container and his homies */
